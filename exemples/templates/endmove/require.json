@@ -1,0 +1,21 @@
+{
+	"author": {
+		"name": "Jérémi N",
+		"e-mail": null,
+		"site": null
+	},
+	"theme": {
+		"name": "Ultimate",
+		"update": "10/03/19",
+		"version": 1.0
+	},
+	"template": {
+		"pages": {
+			"accueil": "pages/accueil.tpl"
+		},
+		"includes": {
+			"header": "#",
+			"footer": "#"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"author": {
+		"name": "MelEnd42",
+		"e-mail": "contact@melend-studio.eu",
+		"site": "https://melend-studio.eu/"
+	},
+	"theme": {
+		"name": "MelEnd",
+		"update": "19/03/19",
+		"version": 1.0
+	},
+	"template": {
+		"pages": {
+			"accueil": "pages/accueil.tpl",
+			"contact": "pages/contact.tpl",
+			"support": "pages/support.tpl"
+		},
+		"includes": {
+			"header": "pages/includes/header.tpl",
+			"footer": "pages/includes/footer.tpl"
+		}
+	}
+}
