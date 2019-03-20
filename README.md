@@ -24,19 +24,19 @@ $syst->load_page("nom de la page à afficher", false); //Affiche la page demand�
 ## Exemple de dossier thème:
 ```
 |--(nom thème)
-|		|--(css)
-|		|    |-style.css
-|		|
-|		|--(js)
-|		|    |-script.js
-|		|
-|		|--(pages)
-|		     |-accueil.tpl
+|       |--(css)
+|       |    |-style.css
+|       |
+|       |--(js)
+|       |    |-script.js
+|       |
+|       |--(pages)
+|            |-accueil.tpl
 |            |-contact.tpl
 |            |
-|		     |--(includes)
-|		            |-header.tpl
-|		            |-footer.tpl
+|            |--(includes)
+|                   |-header.tpl
+|                   |-footer.tpl
 |-require.json
 ```
 Pour plus d'informations voir les exemples disponibles dans (exemples/templates).
