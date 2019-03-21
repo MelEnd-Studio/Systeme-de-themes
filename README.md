@@ -18,6 +18,8 @@ $syst->set_directory("dossier thème (ne pas oublier le '/' de fin)"); //Modifie
 
 $syst->clear_var(); //Supprimer toutes les variable défini préalablement
 
+$infos = $syst->get_property(); //Retourne un tableau php contenant des informations sur le thème
+
 $syst->load_page("nom de la page à afficher", false); //Affiche la page demandé, le paramètre boolean est le prise en compte ou pas des includes (header/footer)
 ```
 
